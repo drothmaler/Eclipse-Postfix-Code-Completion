@@ -9,6 +9,10 @@
 	${cursor}&#13;
 } while (${i:inner_expression(boolean)});</template>
 	
+	<template autoinsert="true" id="org.eclipse.jdt.postfixcompletion.if" context="postfix" deleted="false" description="Creates an if statement" enabled="true" name="if">if (${i:inner_expression(boolean)}${}) {&#13;
+	${cursor}&#13;
+}</template>
+
 	<template autoinsert="true" id="org.eclipse.jdt.postfixcompletion.else" context="postfix" deleted="false" description="Creates a negated if statement" enabled="true" name="else">if (!${i:inner_expression(boolean)}${}) {&#13;
 	${cursor}&#13;
 }</template>
